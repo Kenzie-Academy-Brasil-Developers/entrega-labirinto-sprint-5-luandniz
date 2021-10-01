@@ -1,0 +1,67 @@
+:root{
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+    text-align: center;
+}
+header h1{
+    color: white; 
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.content{
+   min-width: 1060px;
+}
+.styleRow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.styleCell{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    font-size: 0;   
+}
+.wall{
+    background-color: gray;     
+}
+.stylePlayer{
+    background-image: url("./imagens/gretchen-pixel\ \(2\)\ \(1\).png");
+    width: 40px;
+    height: 40px;
+}
+h3{
+    color: white;
+    letter-spacing: 5px;
+}
+.hidden{
+    display: none;
+}
+.finalLine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#resetBtn{
+    background-color: black;   
+    border: 2px solid gray;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+#resetBtn:hover{
+    background-color: white;  
+    color: black; 
+    transition: ease all 0.6s;
+}
