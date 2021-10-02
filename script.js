@@ -109,5 +109,8 @@ function reset(){
     start.appendChild(player)
     sucess.classList.replace("finalLine","hidden")
 }
-
 resetBtn.addEventListener("click", reset)
+
+let audio = document.getElementById("music");
+audio.volume = 0.04;
+
